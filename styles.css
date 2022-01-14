@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    
+}
+.banner{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://finpedia.co/bin/download/Jindal%20Steel%20%26%20Power%20Ltd/WebHome/JINDALSTEL1.jpg?rev=1.1");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-nav__logo--scroll img-fluid{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width: %;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 106%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    text-align: bottom;
+    color:white;
+    font-family:fantasy;
+    font-style:italic;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.sub-menu-1{
+    display:none;
+}
+.navbar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: greySSS;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background:transparent;
+    border-radius:0;
+    text-align: left;
+}
+.steel{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://d2lptvt2jijg6f.cloudfront.net/jindalsteelpower/post/1607158348_steel-bg-new.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: top-left;
+}
+.steel-content{
+    width: 60%;
+    padding :50px;
+    color: whitesmoke;
+    }
+.steel-content h1{
+    font-size:7vmin;
+    margin:50px;
+    color:azure;
+    }
+.steel-content p{
+    color:ghostwhite;
+}
+.steel-content ctn{
+    margin-top: 40px;
+}
+.power{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://d2lptvt2jijg6f.cloudfront.net/jindalsteelpower/post/1607082414_power_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: top-right;
+}
+.power-content{
+    width: 60%;
+    padding :50px;
+    color: whitesmoke;
+    }
+.power-content h1{
+    font-size:7vmin;
+    margin:50px;
+    color:azure;
+    }
+.power-content p{
+    color:ghostwhite;
+}
+.power-content ctn{
+    margin-top: 40px;
+}
+.mining{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://d2lptvt2jijg6f.cloudfront.net/Jindal%20%26%20Steel%20Power/custom/1595337969_mining-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: top-left;
+}
+.mining-content{
+    width: 60%;
+    padding :50px;
+    color: whitesmoke;
+    }
+.mining-content h1{
+    font-size:7vmin;
+    margin:50px;
+    color:azure;
+    }
+.mining-content p{
+    color:ghostwhite;
+}
+.mining-content ctn{
+    margin-top: 40px;
+}
+.construction{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://d2lptvt2jijg6f.cloudfront.net/Jindal%20%26%20Steel%20Power/custom/1595337993_construction-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: top;
+}
+.construction-content{
+    width: 60%;
+    padding :50px;
+    color: whitesmoke;
+    }
+.construction-content h1{
+    font-size:7vmin;
+    margin:50px;
+    color:azure;
+    }
+.construction-content p{
+    color:ghostwhite;
+}
+.construction-content ctn{
+    margin-top: 40px;
+}
+.footer{
+    
+    background:linear-gradient(to right,#00093c,#2d0b00);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:auto;
+    width:100%;
+}
+.logos{
+    display:flex;
+    flex-direction:row;
+    
+
+}
+.logo-1{
+    width:15px;
+    padding:8px;
+}
+.office-p{
+    color:ghostwhite;
+    font-family: serif;
+    font-style: oblique;
+    margin-bottom: -10px;
+}
+.about-h{
+    margin-top: 30px;
+    text-align:center;
+    color:lightgoldenrodyellow;
+    font-family:monospace;
+    font-style:oblique;
+}
+.office{
+    left:8px;
+}
+.button-9{
+    display:flex;
+    align-items:center;
+}
+.compo-3{
+    color:white;
+    font-size:1.5rem;
+}
